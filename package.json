@@ -4,7 +4,10 @@
   "description": "The one sanctioned reader of host/OS ambient state (home dir, temp dir, hostname), routing ambient authority through capability imports",
   "bounded": {
     "tagline": "The one sanctioned reader of host/OS ambient state (home dir, temp dir, hostname), routing ambient authority through capability imports",
-    "kind": "door"
+    "kind": "door",
+    "facet": "verb",
+    "role": "capability-seam",
+    "domain": "host-info"
   },
   "license": "MIT",
   "type": "module",
