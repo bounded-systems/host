@@ -3,8 +3,16 @@
     "type": "name",
     "value": "host"
   },
+  "tagline": {
+    "type": "tagline",
+    "value": "The one sanctioned reader of host/OS ambient state — home directory, temp directory, hostname — routed through a capa…"
+  },
   "description": {
     "type": "meta",
-    "value": "The one sanctioned reader of host/OS ambient state (home dir, temp dir, hostname), routing ambient authority through capability imports"
+    "value": "The one sanctioned reader of host/OS ambient state — home directory, temp directory, hostname — routed through a capability rather than read ad hoc.  Like @bounded-systems/env for the environment, this is the single place that reaches for machine-level ambient values, so they'…"
+  },
+  "keywords": {
+    "type": "body",
+    "value": "HOST · OS · AMBIENT · CAPABILITY · HOMEDIR"
   }
 }
