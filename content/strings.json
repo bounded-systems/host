@@ -1,0 +1,10 @@
+{
+  "name": {
+    "type": "name",
+    "value": "host"
+  },
+  "description": {
+    "type": "meta",
+    "value": "The one sanctioned reader of host/OS ambient state (home dir, temp dir, hostname), routing ambient authority through capability imports"
+  }
+}
