@@ -2,7 +2,7 @@
  * @bounded-systems/host — the host/OS-ambient capability.
  *
  * The ONE place `node:os` ambient queries (home directory, temp directory,
- * hostname) are read. Like @bounded-systems/env for `process.env`, routing these
+ * hostname) are read. As @bounded-systems/env does for environment variables, routing these
  * through an explicit import turns a hidden edge into a visible one: a package
  * that depends on the host's home/temp/hostname declares @bounded-systems/host in
  * its imports rather than reaching into `node:os`. (The ambient-authority guard
